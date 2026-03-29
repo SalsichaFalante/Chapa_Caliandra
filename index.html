@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapa Caliandra — CAENA UnB 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CURSOR PERSONALIZADO -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#inicio" class="nav-brand">
+                <img src="Logo.jpeg" alt="Caliandra" class="nav-logo-img">
+                <span>Caliandra</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre-caena">O CAENA</a></li>
+                <li><a href="#propostas">Propostas</a></li>
+                <li><a href="#chapa">A Chapa</a></li>
+                <li><a href="#documentos">Documentos</a></li>
+                <li><a href="#contato" class="nav-cta">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg">
+            <div class="hero-petals">
+                <div class="petal p1"></div>
+                <div class="petal p2"></div>
+                <div class="petal p3"></div>
+                <div class="petal p4"></div>
+                <div class="petal p5"></div>
+                <div class="petal p6"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span>Centro Acadêmico de Engenharia Ambiental e Sanitária · UnB 2026</span>
+                <span class="eyebrow-line"></span>
+            </div>
+            <div class="hero-logo-wrap">
+                <img src="Logo.jpeg" alt="Logo Chapa Caliandra" class="hero-logo">
+            </div>
+            <h1 class="hero-title">
+                <em>Chapa</em>
+                <strong>Caliandra</strong>
+            </h1>
+            <p class="hero-slogan">"Resiliência, União e Florescimento no Cerrado Universitário"</p>
+            <p class="hero-sub">O tesouro do Cerrado</p>
+            <div class="hero-actions">
+                <a href="#propostas" class="btn-primary">
+                    <span>Ver Propostas</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#chapa" class="btn-outline">Conheça a Chapa</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>role para explorar</span>
+        </div>
+    </section>
+
+    <!-- SOBRE O CAENA -->
+    <section id="sobre-caena" class="section-caena">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-dot"></span>
+                <span>Entenda a estrutura</span>
+            </div>
+            <h2 class="section-title">O que é o <em>CAENA</em>?</h2>
+            <p class="section-lead">O Centro Acadêmico de Engenharia Ambiental e Sanitária é a <strong>entidade máxima de representação</strong> dos estudantes do curso na Universidade de Brasília — independente, sem fins lucrativos e apartidária.</p>
+
+            <div class="caena-grid">
+                <div class="caena-card card-destaque">
+                    <div class="card-icon">🌿</div>
+                    <h3>Quem é membro?</h3>
+                    <p>Todo estudante matriculado no curso de Engenharia Ambiental e Sanitária da UnB é, <strong>automaticamente</strong>, membro do CAENA — com direito a voz e voto em assembleias.</p>
+                </div>
+                <div class="caena-card">
+                    <div class="card-icon">🗳️</div>
+                    <h3>Como funciona?</h3>
+                    <p>A instância máxima é a <strong>Assembleia Geral (AGEEAS)</strong>, onde todos podem votar. A chapa eleita assume a gestão por um mandato de um ano.</p>
+                </div>
+                <div class="caena-card">
+                    <div class="card-icon">📋</div>
+                    <h3>O que o CA faz?</h3>
+                    <p>Representa os estudantes junto à coordenação, gere o espaço físico (sala BT 37/18), promove eventos e defende os direitos acadêmicos de todos.</p>
+                </div>
+                <div class="caena-card">
+                    <div class="card-icon">⚖️</div>
+                    <h3>Base legal</h3>
+                    <p>O CAENA é regulado pelo seu <strong>Estatuto</strong>, aprovado em Assembleia Extraordinária em fevereiro de 2025, em conformidade com a Lei Federal nº 7.395/1985.</p>
+                </div>
+            </div>
+
+            <!-- Cargos explicados -->
+            <div class="cargos-section">
+                <h3 class="cargos-title">Entenda cada cargo da gestão</h3>
+                <p class="cargos-sub">Muita gente não sabe o que cada diretor faz. Aqui está de forma clara e direta:</p>
+                <div class="cargos-grid">
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Presidência</span>
+                        <p>Representa o CAENA legalmente, preside reuniões e assina documentos financeiros junto ao tesoureiro.</p>
+                    </div>
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Vice-Presidência</span>
+                        <p>Apoia o presidente e assume em caso de ausência — garante a continuidade da gestão em qualquer circunstância.</p>
+                    </div>
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Secretaria Geral</span>
+                        <p>Organiza a memória do CA: lavra atas, publica editais, cuida das comunicações oficiais e mantém os arquivos atualizados.</p>
+                    </div>
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Tesouraria</span>
+                        <p>Controla todos os bens e finanças, realiza a movimentação bancária e garante a prestação de contas periódica.</p>
+                    </div>
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Dir. de Rel. Acadêmicas</span>
+                        <p>Fiscaliza a qualidade do ensino, dialoga com a coordenação e defende os direitos acadêmicos dos estudantes.</p>
+                    </div>
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Dir. de Comunicação</span>
+                        <p>Divulga as atividades do CAENA nas redes sociais e mantém todos os estudantes bem informados.</p>
+                    </div>
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Dir. de Eventos</span>
+                        <p>Planeja e coordena atividades de integração, lazer e formação complementar para os estudantes.</p>
+                    </div>
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Dir. de Patrimônio</span>
+                        <p>Zela pelo espaço físico do CA, organiza o estoque, coordena limpeza e cuida dos bens da entidade.</p>
+                    </div>
+                    <div class="cargo-item">
+                        <span class="cargo-badge">Assessorias</span>
+                        <p>Apoiam as diretorias em áreas específicas: assistência estudantil, gestão documental e marketing/identidade visual.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROPOSTAS -->
+    <section id="propostas" class="section-propostas">
+        <div class="container">
+            <div class="section-label light">
+                <span class="label-dot"></span>
+                <span>Nosso plano de gestão</span>
+            </div>
+            <h2 class="section-title light">Eixos de <em>Atuação</em></h2>
+            <p class="section-lead light">Seis pilares concretos para um CAENA mais presente, acolhedor e transformador.</p>
+
+            <div class="eixos-wrapper">
+
+                <article class="eixo-block" data-eixo="I">
+                    <div class="eixo-header">
+                        <span class="eixo-num">I</span>
+                        <div>
+                            <h3>Articulação Acadêmica e Suporte ao Estudante</h3>
+                            <p class="eixo-goal">Garantir o direito ao ensino de qualidade e facilitar a vida acadêmica.</p>
+                        </div>
+                    </div>
+                    <ul class="eixo-list">
+                        <li><strong>Diagnóstico da Engenharia Ambiental:</strong> Levantamento de dados reais sobre evasão e baixa entrada de calouros para propor soluções concretas à coordenação.</li>
+                        <li><strong>Flexibilização Curricular:</strong> Diálogo ativo com o ENC para ampliar a lista de matérias optativas e tornar o currículo mais moderno.</li>
+                        <li><strong>Suporte ao Período de Matrículas:</strong> Formulários de demanda de disciplinas para facilitar a ponte entre estudantes e coordenação.</li>
+                        <li><strong>Drive do Curso Organizado:</strong> Reestruturação do Drive Acadêmico com material de qualidade e atualizado — provas, resumos, documentos.</li>
+                    </ul>
+                </article>
+
+                <article class="eixo-block" data-eixo="II">
+                    <div class="eixo-header">
+                        <span class="eixo-num">II</span>
+                        <div>
+                            <h3>Transparência e Comunicação Ativa</h3>
+                            <p class="eixo-goal">Garantir que a informação chegue a todos de forma clara e eficiente.</p>
+                        </div>
+                    </div>
+                    <ul class="eixo-list">
+                        <li><strong>Plano de Comunicação:</strong> Fluxo centralizado via Instagram e grupos de WhatsApp com notícias, editais e oportunidades da FT.</li>
+                        <li><strong>Ouvidoria da Engenharia Ambiental:</strong> Canal oficial com opção de anonimato para denúncias e relatos de vulnerabilidade.</li>
+                        <li><strong>Transparência Institucional:</strong> Divulgação periódica de relatórios de gestão e pautas discutidas com a coordenação.</li>
+                        <li><strong>Guia do Novo PPC:</strong> Material explicativo sobre a transição para o currículo de Engenharia Ambiental e Sanitária.</li>
+                    </ul>
+                </article>
+
+                <article class="eixo-block" data-eixo="III">
+                    <div class="eixo-header">
+                        <span class="eixo-num">III</span>
+                        <div>
+                            <h3>Desenvolvimento Profissional e Carreira</h3>
+                            <p class="eixo-goal">Reduzir a distância entre a universidade e o mercado de trabalho.</p>
+                        </div>
+                    </div>
+                    <ul class="eixo-list">
+                        <li><strong>Cursos de Capacitação Técnica:</strong> Oficinas de Excel, QGIS, PowerBI, AutoCAD e Python com nível básico gratuito.</li>
+                        <li><strong>Módulo de Empregabilidade:</strong> Workshops de currículo, LinkedIn e preparação para processos seletivos.</li>
+                        <li><strong>Conexão Mercado e Estágios:</strong> Parcerias com empresas ambientais e órgãos públicos para captação de vagas.</li>
+                        <li><strong>Quero PIBIC:</strong> Plataforma conectando estudantes interessados em pesquisa a professores com projetos disponíveis.</li>
+                    </ul>
+                </article>
+
+                <article class="eixo-block" data-eixo="IV">
+                    <div class="eixo-header">
+                        <span class="eixo-num">IV</span>
+                        <div>
+                            <h3>Extensão e Vivência Prática</h3>
+                            <p class="eixo-goal">Promover a aplicação do conhecimento e engajamento comunitário.</p>
+                        </div>
+                    </div>
+                    <ul class="eixo-list">
+                        <li><strong>Rota de Visitas Técnicas:</strong> Visitas a ETAs, ETEs, aterros e usinas fotovoltaicas para visualizar o campo de atuação na prática.</li>
+                        <li><strong>Fomento à Extensão:</strong> Integração e divulgação dos projetos de extensão exigidos pelo novo PPC.</li>
+                        <li><strong>Horta Comunitária UnB:</strong> Retomada do projeto de educação ambiental e manejo de resíduos como prática sustentável.</li>
+                    </ul>
+                </article>
+
+                <article class="eixo-block" data-eixo="V">
+                    <div class="eixo-header">
+                        <span class="eixo-num">V</span>
+                        <div>
+                            <h3>Infraestrutura e Sustentabilidade Financeira</h3>
+                            <p class="eixo-goal">Tornar o CA um ambiente produtivo e financeiramente independente.</p>
+                        </div>
+                    </div>
+                    <ul class="eixo-list">
+                        <li><strong>Revitalização da Sala BT 37/18:</strong> Transformar o espaço físico do CA em um lugar aconchegante, limpo, organizado e que os estudantes se orgulhem.</li>
+                        <li><strong>Sala de Estudo Reservada:</strong> Negociar com o ENC uma sala exclusiva para reuniões e estudos em grupo com sistema de agendamento.</li>
+                        <li><strong>Papelaria CAENA:</strong> Ponto de venda de materiais básicos com preços justos, gerando renda para as atividades do CA.</li>
+                    </ul>
+                </article>
+
+                <article class="eixo-block" data-eixo="VI">
+                    <div class="eixo-header">
+                        <span class="eixo-num">VI</span>
+                        <div>
+                            <h3>Integração, Cultura e Bem-Estar</h3>
+                            <p class="eixo-goal">Fortalecer os vínculos entre os estudantes e promover a saúde mental.</p>
+                        </div>
+                    </div>
+                    <ul class="eixo-list">
+                        <li><strong>Calendário Cultural CAENA:</strong> Festa Junina, Halloween, Cine CAENA, Correio Elegante e outros eventos temáticos ao longo do ano.</li>
+                        <li><strong>Produtos e Identidade:</strong> Novos produtos oficiais — camisetas, moletons e acessórios que fortalecem nossa identidade.</li>
+                        <li><strong>Apoio ao Estudante:</strong> Kit de Emergência na sala do CA com itens de primeiros socorros e absorventes.</li>
+                    </ul>
+                </article>
+
+            </div>
+
+            <div class="propostas-cta">
+                <p>Quer ver tudo em detalhes? Leia nossa carta completa de propostas.</p>
+                <a href="Propostas_Chapa_Caliandra.pdf" target="_blank" class="btn-primary light">
+                    <span>Baixar Carta de Propostas (PDF)</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- A CHAPA -->
+    <section id="chapa" class="section-chapa">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-dot"></span>
+                <span>Quem somos</span>
+            </div>
+            <h2 class="section-title">Nossa <em>Equipe</em></h2>
+            <p class="section-lead">Conheça as pessoas por trás da Chapa Caliandra — estudantes comprometidos com a transformação do CAENA.</p>
+
+            <!-- Núcleo Administrativo -->
+            <div class="nucleo-section">
+                <div class="nucleo-label">
+                    <span class="nucleo-dot admin"></span>
+                    <h3>Núcleo Administrativo e Estratégico</h3>
+                </div>
+                <p class="nucleo-desc">Responsável pelo funcionamento legal, financeiro e pela coordenação geral do CAENA.</p>
+                <div class="membros-grid">
+                    <div class="membro-card destaque">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/Daniel.jpeg">
+                            </div>
+                            <div class="membro-badge">Presidente</div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Daniel Matias Carlos de Araújo</h4>
+                            <span class="membro-cargo">Presidente</span>
+                            <p class="membro-desc">Representa o CAENA legalmente em todas as instâncias, preside as reuniões e assina documentos financeiros. É o principal porta-voz da gestão.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/Rafael.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Rafael Gomes Pereira</h4>
+                            <span class="membro-cargo">Vice-Presidente</span>
+                            <p class="membro-desc">Apoia o presidente e garante a continuidade das atividades, assumindo em qualquer circunstância de ausência.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/Lara.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Lara Cardozo Ribeiro</h4>
+                            <span class="membro-cargo">Secretária Geral</span>
+                            <p class="membro-desc">Organiza a memória e a transparência do CA — cuida das atas, editais e comunicações oficiais.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/Arthur.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Arthur Ferreira de Andrade</h4>
+                            <span class="membro-cargo">Tesoureiro</span>
+                            <p class="membro-desc">Gere as finanças, controla os bens da entidade e realiza a prestação de contas periódica com total transparência.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/Isa.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Isabella Bratti</h4>
+                            <span class="membro-cargo">Assessora de Gestão Documental</span>
+                            <p class="membro-desc">Curadoria e organização do Drive do curso — provas antigas, materiais de estudo e documentos oficiais sempre acessíveis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Núcleo Institucional -->
+            <div class="nucleo-section">
+                <div class="nucleo-label">
+                    <span class="nucleo-dot inst"></span>
+                    <h3>Núcleo de Assuntos Acadêmicos e Institucionais</h3>
+                </div>
+                <p class="nucleo-desc">Focado no diálogo com a UnB, na defesa dos direitos estudantis e no suporte direto ao aluno.</p>
+                <div class="membros-grid">
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/Elemer.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Elmer Tercio</h4>
+                            <span class="membro-cargo">Diretor de Relações Acadêmicas</span>
+                            <p class="membro-desc">Voz ativa dos estudantes junto à coordenação, fiscaliza a qualidade do ensino e defende os direitos acadêmicos em todas as instâncias.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/AnaCarolina.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Ana Carolina Vieira</h4>
+                            <span class="membro-cargo">Assessora de Assistência Estudantil</span>
+                            <p class="membro-desc">Democratiza o acesso a informações sobre auxílios e bolsas, apoiando estudantes em situação de vulnerabilidade para que ninguém abandone o curso.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/MariaLivia.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Maria Lívia</h4>
+                            <span class="membro-cargo">Assessora de Assistência Estudantil</span>
+                            <p class="membro-desc">Apoia na divulgação de editais de permanência e atua como canal de suporte para os estudantes que precisam de apoio institucional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Núcleo de Comunicação -->
+            <div class="nucleo-section">
+                <div class="nucleo-label">
+                    <span class="nucleo-dot com"></span>
+                    <h3>Núcleo de Comunicação e Marketing</h3>
+                </div>
+                <p class="nucleo-desc">Garante a transparência, a identidade visual e o repasse eficaz das informações do CAENA.</p>
+                <div class="membros-grid">
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/JoaoEduardo.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>João Eduardo Bernardes dos Reis</h4>
+                            <span class="membro-cargo">Diretor de Comunicação</span>
+                            <p class="membro-desc">Voz oficial da gestão — garante que toda informação relevante chegue aos estudantes de forma clara, direta e acessível.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/Amanda.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Amanda Galeno</h4>
+                            <span class="membro-cargo">Assessora de Comunicação</span>
+                            <p class="membro-desc">Apoia a divulgação das atividades do CAENA e garante que os canais de comunicação estejam sempre ativos e relevantes.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/AmandaF.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Amanda Sthefani Silva Santana</h4>
+                            <span class="membro-cargo">Assessora de Marketing</span>
+                            <p class="membro-desc">Responsável pela identidade visual e gestão das redes sociais — garante que o CAENA seja reconhecido e admirado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Núcleo de Espaço e Comunidade -->
+            <div class="nucleo-section">
+                <div class="nucleo-label">
+                    <span class="nucleo-dot esp"></span>
+                    <h3>Núcleo de Espaço e Comunidade</h3>
+                </div>
+                <p class="nucleo-desc">Cuida do espaço físico, promove integração e o bem-estar dos estudantes.</p>
+                <div class="membros-grid">
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/Gabrielly.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Gabrielly Soeiro Mendes</h4>
+                            <span class="membro-cargo">Diretora de Eventos</span>
+                            <p class="membro-desc">Planeja e coordena atividades de integração, lazer e formação complementar — do Cine CAENA à Festa Junina.</p>
+                        </div>
+                    </div>
+                    <div class="membro-card">
+                        <div class="membro-foto-wrap">
+                            <div class="foto-placeholder">
+                                <img class="membro-foto" src="Fotos/PedroHenrique.jpeg">
+                            </div>
+                        </div>
+                        <div class="membro-info">
+                            <h4>Pedro Henrique Ciolfi Silveira</h4>
+                            <span class="membro-cargo">Diretor de Patrimônio</span>
+                            <p class="membro-desc">Zela pelo espaço físico da sala BT 37/18, organiza o estoque e coordena mutirões de revitalização do CA.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOCUMENTOS -->
+    <section id="documentos" class="section-docs">
+        <div class="container">
+            <div class="section-label light">
+                <span class="label-dot"></span>
+                <span>Acesso à informação</span>
+            </div>
+            <h2 class="section-title light">Documentos <em>Oficiais</em></h2>
+            <p class="section-lead light">Transparência é um dos nossos pilares. Acesse os documentos que regem o CAENA e nossa carta de propostas.</p>
+
+            <div class="docs-grid">
+                <a href="NOVO_ESTATUTO_CAENA_2025.pdf" target="_blank" class="doc-card">
+                    <div class="doc-icon">📄</div>
+                    <div class="doc-info">
+                        <h3>Estatuto do CAENA</h3>
+                        <p>Aprovado em Assembleia Geral Extraordinária em 11 de fevereiro de 2025. Documento oficial que rege os direitos, deveres e estrutura do Centro Acadêmico.</p>
+                        <span class="doc-link">Acessar documento →</span>
+                    </div>
+                </a>
+                <a href="Propostas_Chapa_Caliandra.pdf" target="_blank" class="doc-card">
+                    <div class="doc-icon">🌱</div>
+                    <div class="doc-info">
+                        <h3>Carta de Propostas</h3>
+                        <p>Nosso plano de gestão completo com todos os seis eixos estratégicos, objetivos e ações concretas para a gestão 2026.</p>
+                        <span class="doc-link">Baixar carta →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section-contato">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-dot"></span>
+                <span>Fale com a gente</span>
+            </div>
+            <h2 class="section-title">Contato & <em>Redes</em></h2>
+            <p class="section-lead">Dúvidas, sugestões ou quer participar? Nos mande uma mensagem. Queremos ouvir todos os estudantes.</p>
+
+            <div class="contato-grid">
+              <div class="contato-card">
+                <div class="contato-icon">📱</div>
+                <h3>Contato via WhatsApp: Daniel Matias Carlos de Araújo</h3>
+                <a href="https://wa.me/556192923003?text=Olá, quero saber mais da chapa Caliandra." class="contato-link">Converse com nosso candidato a presidência</a>
+              </div>
+            <div class="contato-grid">
+              <div class="contato-card">
+                <div class="contato-icon">📱</div>
+                <h3>Contato via WhatsApp: Rafael Gomes Pereira</h3>
+                <a href="https://wa.me/556194311666?text=Olá, quero saber mais da chapa Caliandra." class="contato-link">Converse com nosso candidato a vice presidência</a>
+              </div>
+                <div class="contato-card">
+                    <div class="contato-icon">📷</div>
+                    <h3>Acompanhe no Insta do CAENA</h3>
+                    <a href="https://www.instagram.com/caenaunb?igsh=MW4wZHJucTZuMGFiMA==" target="_blank" class="contato-link">@caenaunb</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="Logo.jpeg" alt="Caliandra" class="footer-logo">
+                <span>Chapa Caliandra</span>
+            </div>
+            <p class="footer-copy">Engenharia Ambiental e Sanitária · UnB · Gestão 2026</p>
+            <p class="footer-sub">"Resiliência, União e Florescimento no Cerrado Universitário"</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
