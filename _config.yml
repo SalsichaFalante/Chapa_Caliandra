@@ -1,7 +1,7 @@
 name: Portal CAENA - Chapa Caliandra
 description: Centro Acadêmico de Engenharia Ambiental e Sanitária da UnB
-baseurl: ""
-url: "https://salsichafalante.github.io/caena"
+baseurl: "/Chapa_Caliandra"
+url: "https://salsichafalante.github.io"
 
 # Configurações do compilador Markdown
 markdown: kramdown

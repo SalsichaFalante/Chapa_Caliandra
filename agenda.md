@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /agenda/
 ---
 
 <section class="section-caena">
