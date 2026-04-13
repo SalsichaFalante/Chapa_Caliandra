@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<section class="section-chapa">
+    <div class="container" style="padding-top: 120px;">
+        <h2 class="section-title">Fale com a <em>Gestão</em></h2>
+        <p class="section-lead">Precisa de ajuda direta? Entre em contato com o diretor responsável pela sua demanda.</p>
+
+        <div class="membros-grid">
+            {% for membro in site.data.equipe %}
+            <div class="membro-card">
+                <div class="membro-foto-wrap">
+                    <img class="membro-foto" src="{{ membro.foto | relative_url }}" alt="Foto de {{ membro.nome }}" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover;">
+                </div>
+                <div class="membro-info">
+                    <h4>{{ membro.nome }}</h4>
+                    <span class="membro-cargo">{{ membro.cargo }}</span>
+                    <p class="membro-desc">{{ membro.descricao }}</p>
+                    <a href="https://wa.me/{{ membro.whatsapp }}?text=Olá, {{ membro.nome }}! Vim pelo portal do CAENA." target="_blank" class="contato-link" style="margin-top: 10px; display: inline-block;">💬 Chamar no WhatsApp</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

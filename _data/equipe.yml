@@ -1,0 +1,83 @@
+# NÚCLEO ADMINISTRATIVO E ESTRATÉGICO
+- nome: "Daniel Matias Carlos de Araújo"
+  cargo: "Presidente"
+  descricao: "Representa o CAENA legalmente em todas as instâncias, preside as reuniões e assina documentos financeiros. É o principal porta-voz da gestão."
+  foto: "assets/img/Daniel.jpeg"
+  whatsapp: "556192923003"
+  nucleo: "Administrativo"
+
+- nome: "Rafael Gomes Pereira"
+  cargo: "Vice-Presidente"
+  descricao: "Apoia o presidente e garante a continuidade das atividades, assumindo em qualquer circunstância de ausência."
+  foto: "assets/img/Rafael.jpeg"
+  whatsapp: "556194311666"
+  nucleo: "Administrativo"
+
+- nome: "Lara Cardozo Ribeiro"
+  cargo: "Secretária Geral"
+  descricao: "Organiza a memória e a transparência do CA — cuida das atas, editais e comunicações oficiais."
+  foto: "assets/img/Lara.jpeg"
+  whatsapp: ""
+
+- nome: "Arthur Ferreira de Andrade"
+  cargo: "Tesoureiro"
+  descricao: "Gere as finanças, controla os bens da entidade e realiza a prestação de contas periódica com total transparência."
+  foto: "assets/img/Arthur.jpeg"
+  whatsapp: ""
+
+- nome: "Isabella Bratti"
+  cargo: "Assessora de Gestão Documental"
+  descricao: "Curadoria e organização do Drive do curso — provas antigas, materiais de estudo e documentos oficiais sempre acessíveis."
+  foto: "assets/img/Isa.jpeg"
+  whatsapp: ""
+
+# NÚCLEO DE ASSUNTOS ACADÊMICOS E INSTITUCIONAIS
+- nome: "Elmer Tercio"
+  cargo: "Diretor de Relações Acadêmicas"
+  descricao: "Voz ativa dos estudantes junto à coordenação, fiscaliza a qualidade do ensino e defende os direitos acadêmicos em todas as instâncias."
+  foto: "assets/img/Elemer.jpeg"
+  whatsapp: ""
+
+- nome: "Ana Carolina Vieira"
+  cargo: "Assessora de Assistência Estudantil"
+  descricao: "Democratiza o acesso a informações sobre auxílios e bolsas, apoiando estudantes em situação de vulnerabilidade para que ninguém abandone o curso."
+  foto: "assets/img/AnaCarolina.jpeg"
+  whatsapp: ""
+
+- nome: "Maria Lívia"
+  cargo: "Assessora de Assistência Estudantil"
+  descricao: "Apoia na divulgação de editais de permanência e atua como canal de suporte para os estudantes que precisam de apoio institucional."
+  foto: "assets/img/MariaLivia.jpeg"
+  whatsapp: ""
+
+# NÚCLEO DE COMUNICAÇÃO E MARKETING
+- nome: "João Eduardo Bernardes dos Reis"
+  cargo: "Diretor de Comunicação"
+  descricao: "Voz oficial da gestão — garante que toda informação relevante chegue aos estudantes de forma clara, direta e acessível."
+  foto: "assets/img/JoaoEduardo.jpeg"
+  whatsapp: ""
+
+- nome: "Amanda Galeno"
+  cargo: "Assessora de Comunicação"
+  descricao: "Apoia a divulgação das atividades do CAENA e garante que os canais de comunicação estejam sempre ativos e relevantes."
+  foto: "assets/img/Amanda.jpeg"
+  whatsapp: ""
+
+- nome: "Amanda Sthefani Silva Santana"
+  cargo: "Assessora de Marketing"
+  descricao: "Responsável pela identidade visual e gestão das redes sociais — garante que o CAENA seja reconhecido e admirado."
+  foto: "assets/img/AmandaF.jpeg"
+  whatsapp: ""
+
+# NÚCLEO DE ESPAÇO E COMUNIDADE
+- nome: "Gabrielly Soeiro Mendes"
+  cargo: "Diretora de Eventos"
+  descricao: "Planeja e coordena atividades de integração, lazer e formação complementar — do Cine CAENA à Festa Junina."
+  foto: "assets/img/Gabrielly.jpeg"
+  whatsapp: ""
+
+- nome: "Pedro Henrique Ciolfi Silveira"
+  cargo: "Diretor de Patrimônio"
+  descricao: "Zela pelo espaço físico da sala BT 37/18, organiza o estoque e coordena mutirões de revitalização do CA."
+  foto: "assets/img/PedroHenrique.jpeg"
+  whatsapp: ""
